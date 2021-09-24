@@ -132,6 +132,9 @@ public class WebScrape {
 
     private String chapterInDays(){
         Period period = Period.between(currentDate, listDate.first());
-        return Integer.toString(period.getDays());
+        if (period.getDays() == 1){
+           return period.getDays() + " day";
+        }
+        return period.getDays() + " days";
     }
 }
