@@ -1,10 +1,5 @@
 package com.op.backend;
 
-import com.op.backend.model.ScrapeInfo;
-import com.op.backend.repository.OpRepository;
-import com.op.backend.scrape.WebScrape;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
